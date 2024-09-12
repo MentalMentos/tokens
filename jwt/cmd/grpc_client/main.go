@@ -4,7 +4,7 @@ import (
 	"context"
 	"flag"
 	"fmt"
-	"github.com/olezhek28/microservices_course/week_6/jwt/internal/model"
+	"github.com/MentalMentos/tokens/jwt/internal/model"
 	"log"
 
 	"google.golang.org/grpc"

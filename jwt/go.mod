@@ -4,6 +4,7 @@ go 1.20
 
 require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
+	github.com/olezhek28/microservices_course/week_6/jwt v0.0.0-20240730180403-7726e2b3b758
 	github.com/pkg/errors v0.8.1
 	golang.org/x/crypto v0.12.0
 	google.golang.org/grpc v1.57.0
