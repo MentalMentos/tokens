@@ -11,7 +11,7 @@ import (
 	"google.golang.org/grpc/credentials/insecure"
 	"google.golang.org/grpc/metadata"
 
-	descAccess "https://github.com/MentalMentos/jwt_tls_tokens/tree/136c057d131d05ec473b16427178bbc4ec82e69a/tokens/jwt/internal/model"
+	descAccess "github.com/MentalMentos/tokens/jwt/internal/model"
 )
 
 var accessToken = flag.String("a", "", "access token")
