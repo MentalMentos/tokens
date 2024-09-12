@@ -1,4 +1,4 @@
-module github.com/olezhek28/microservices_course/week_6/jwt
+module github.com/MentalMentos/tokens/jwt
 
 go 1.20
 
