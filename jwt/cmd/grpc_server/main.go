@@ -16,10 +16,10 @@ import (
 	"google.golang.org/grpc/status"
 	"google.golang.org/protobuf/types/known/emptypb"
 
-	"github.com/olezhek28/microservices_course/week_6/jwt/internal/model"
-	"github.com/olezhek28/microservices_course/week_6/jwt/internal/utils"
-	descAccess "github.com/olezhek28/microservices_course/week_6/jwt/pkg/access_v1"
-	descAuth "github.com/olezhek28/microservices_course/week_6/jwt/pkg/auth_v1"
+	"github.com/MentalMentos/tokens/jwt/internal/model"
+	"github.com/MentalMentos/tokens/jwt/internal/utils"
+	descAccess "github.com/MentalMentos/tokens/jwt/pkg/access_v1"
+	descAuth "github.com/MentalMentos/tokens/jwt/pkg/auth_v1"
 )
 
 const (
