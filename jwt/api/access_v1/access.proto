@@ -15,5 +15,5 @@ message CheckRequest {
 }
 
 message CheckResponse {
-  string end
+  string endpoint = 1;
 }
