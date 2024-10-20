@@ -1,15 +1,16 @@
 package utils
 
 import (
+	model2 "github.com/MentalMentos/tokens/jwt/internal/model"
 	"time"
 
 	"github.com/dgrijalva/jwt-go"
 	"github.com/pkg/errors"
 
-	"github.com/olezhek28/microservices_course/week_6/jwt/internal/model"
+	"github.com/MentalMentos/tokens/jwt/internal/model"
 )
 
-func GenerateToken(info model.UserInfo, secretKey []byte, duration time.Duration) (string, error) {
+func GenerateToken(info model2.UserInfo, secretKey []byte, duration time.Duration) (string, error) {
 	claims := model.UserClaims{
 		StandardClaims: jwt.StandardClaims{
 			ExpiresAt: time.Now().Add(duration).Unix(),

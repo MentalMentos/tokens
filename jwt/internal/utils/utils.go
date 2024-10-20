@@ -9,7 +9,6 @@ import (
 func VerifyPassword(hashedPassword string, candidatePassword string) bool {
 	err := bcrypt.CompareHashAndPassword([]byte(hashedPassword), []byte(candidatePassword))
 
-	err2 := scrypt.Key([]byte(hashedPassword))
 	return err == nil
 }
 
